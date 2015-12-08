@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_adYboJ4GEeWq_sPF88MtHg" name="timetracker">
+  <eAnnotations xmi:id="_adYboZ4GEeWq_sPF88MtHg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_adYbop4GEeWq_sPF88MtHg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_adYbo54GEeWq_sPF88MtHg" value="3.0.0"/>
+    </contents>
+    <contents xmi:type="uml:Property" xmi:id="_adYbpJ4GEeWq_sPF88MtHg" name="isRoundTrip"/>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_adYbpZ4GEeWq_sPF88MtHg" name="Package">
+    <packagedElement xmi:type="uml:Class" xmi:id="_adYbpp4GEeWq_sPF88MtHg" name="Class"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_adYbp54GEeWq_sPF88MtHg" name="Class1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_adYbqJ4GEeWq_sPF88MtHg" name="Class2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_adYbqZ4GEeWq_sPF88MtHg" name="Class4">
+      <generalization xmi:id="_adYbqp4GEeWq_sPF88MtHg" general="_adYbqJ4GEeWq_sPF88MtHg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_adYbq54GEeWq_sPF88MtHg" name="Class3">
+      <generalization xmi:id="_adYbrJ4GEeWq_sPF88MtHg" general="_adYbqJ4GEeWq_sPF88MtHg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_adYbrZ4GEeWq_sPF88MtHg" name="Class5">
+      <generalization xmi:id="_adYbrp4GEeWq_sPF88MtHg" general="_adYbqJ4GEeWq_sPF88MtHg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_adYbr54GEeWq_sPF88MtHg" name="Class6">
+      <ownedComment xmi:id="_adYbsJ4GEeWq_sPF88MtHg">
+        <eAnnotations xmi:id="_adYbsZ4GEeWq_sPF88MtHg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_adYbsp4GEeWq_sPF88MtHg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_adYbs54GEeWq_sPF88MtHg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <generalization xmi:id="_adYbtJ4GEeWq_sPF88MtHg" general="_adYbqJ4GEeWq_sPF88MtHg"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
