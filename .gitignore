@@ -1,0 +1,5 @@
+*.exml
+\data
+\.runtime
+\patterns
+Timetracker/project.conf

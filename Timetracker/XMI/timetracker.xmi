@@ -1,34 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_adYboJ4GEeWq_sPF88MtHg" name="timetracker">
-  <eAnnotations xmi:id="_adYboZ4GEeWq_sPF88MtHg" source="Objing">
-    <contents xmi:type="uml:Property" xmi:id="_adYbop4GEeWq_sPF88MtHg" name="exporterVersion">
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_adYbo54GEeWq_sPF88MtHg" value="3.0.0"/>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_A-RukJ4HEeWq_sPF88MtHg" name="timetracker">
+  <eAnnotations xmi:id="_A-RukZ4HEeWq_sPF88MtHg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_A-Rukp4HEeWq_sPF88MtHg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_A-Ruk54HEeWq_sPF88MtHg" value="3.0.0"/>
     </contents>
-    <contents xmi:type="uml:Property" xmi:id="_adYbpJ4GEeWq_sPF88MtHg" name="isRoundTrip"/>
+    <contents xmi:type="uml:Property" xmi:id="_A-RulJ4HEeWq_sPF88MtHg" name="isRoundTrip"/>
   </eAnnotations>
-  <packagedElement xmi:type="uml:Package" xmi:id="_adYbpZ4GEeWq_sPF88MtHg" name="Package">
-    <packagedElement xmi:type="uml:Class" xmi:id="_adYbpp4GEeWq_sPF88MtHg" name="Class"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_adYbp54GEeWq_sPF88MtHg" name="Class1"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_adYbqJ4GEeWq_sPF88MtHg" name="Class2"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_adYbqZ4GEeWq_sPF88MtHg" name="Class4">
-      <generalization xmi:id="_adYbqp4GEeWq_sPF88MtHg" general="_adYbqJ4GEeWq_sPF88MtHg"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_A-RulZ4HEeWq_sPF88MtHg" name="Package">
+    <packagedElement xmi:type="uml:Class" xmi:id="_A-Rulp4HEeWq_sPF88MtHg" name="Class">
+      <ownedAttribute xmi:id="_A-Rul54HEeWq_sPF88MtHg" name="Attribute" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_A-RumJ4HEeWq_sPF88MtHg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_A-RumZ4HEeWq_sPF88MtHg" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_A-Rump4HEeWq_sPF88MtHg" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_A-SVoJ4HEeWq_sPF88MtHg" name="Attribute1" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_A-SVoZ4HEeWq_sPF88MtHg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_A-SVop4HEeWq_sPF88MtHg" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_A-SVo54HEeWq_sPF88MtHg" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_A-SVpJ4HEeWq_sPF88MtHg" name="Attribute2" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_A-SVpZ4HEeWq_sPF88MtHg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_A-SVpp4HEeWq_sPF88MtHg" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_A-SVp54HEeWq_sPF88MtHg" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_A-SVqJ4HEeWq_sPF88MtHg" name="Attribute3" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_A-SVqZ4HEeWq_sPF88MtHg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_A-SVqp4HEeWq_sPF88MtHg" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_A-SVq54HEeWq_sPF88MtHg" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_adYbq54GEeWq_sPF88MtHg" name="Class3">
-      <generalization xmi:id="_adYbrJ4GEeWq_sPF88MtHg" general="_adYbqJ4GEeWq_sPF88MtHg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_A-SVrJ4HEeWq_sPF88MtHg" name="Class1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_A-SVrZ4HEeWq_sPF88MtHg" name="Timetracker">
+      <ownedAttribute xmi:id="_A-SVrp4HEeWq_sPF88MtHg" name="Attribute" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_A-SVr54HEeWq_sPF88MtHg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_A-SVsJ4HEeWq_sPF88MtHg" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_A-SVsZ4HEeWq_sPF88MtHg" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_A-SVsp4HEeWq_sPF88MtHg" name="Operation" visibility="public"/>
+      <ownedOperation xmi:id="_A-SVs54HEeWq_sPF88MtHg" name="Operation1" visibility="public"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_adYbrZ4GEeWq_sPF88MtHg" name="Class5">
-      <generalization xmi:id="_adYbrp4GEeWq_sPF88MtHg" general="_adYbqJ4GEeWq_sPF88MtHg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_A-SVtJ4HEeWq_sPF88MtHg" name="Class4">
+      <generalization xmi:id="_A-SVtZ4HEeWq_sPF88MtHg" general="_A-SVrZ4HEeWq_sPF88MtHg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_adYbr54GEeWq_sPF88MtHg" name="Class6">
-      <ownedComment xmi:id="_adYbsJ4GEeWq_sPF88MtHg">
-        <eAnnotations xmi:id="_adYbsZ4GEeWq_sPF88MtHg" source="Objing">
-          <contents xmi:type="uml:Property" xmi:id="_adYbsp4GEeWq_sPF88MtHg" name="NoteType_Name">
-            <defaultValue xmi:type="uml:LiteralString" xmi:id="_adYbs54GEeWq_sPF88MtHg" value="description"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_A-SVtp4HEeWq_sPF88MtHg" name="Class3">
+      <generalization xmi:id="_A-SVt54HEeWq_sPF88MtHg" general="_A-SVrZ4HEeWq_sPF88MtHg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_A-SVuJ4HEeWq_sPF88MtHg" name="Class5">
+      <generalization xmi:id="_A-SVuZ4HEeWq_sPF88MtHg" general="_A-SVrZ4HEeWq_sPF88MtHg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_A-SVup4HEeWq_sPF88MtHg" name="Class6">
+      <ownedComment xmi:id="_A-SVu54HEeWq_sPF88MtHg">
+        <eAnnotations xmi:id="_A-SVvJ4HEeWq_sPF88MtHg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_A-SVvZ4HEeWq_sPF88MtHg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_A-SVvp4HEeWq_sPF88MtHg" value="description"/>
           </contents>
         </eAnnotations>
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <generalization xmi:id="_adYbtJ4GEeWq_sPF88MtHg" general="_adYbqJ4GEeWq_sPF88MtHg"/>
+      <generalization xmi:id="_A-SVv54HEeWq_sPF88MtHg" general="_A-SVrZ4HEeWq_sPF88MtHg"/>
     </packagedElement>
   </packagedElement>
 </uml:Model>
